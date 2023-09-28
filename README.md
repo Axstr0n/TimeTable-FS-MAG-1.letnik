@@ -1,0 +1,1 @@
+# TimeTable-FS-MAG-1.letnik
