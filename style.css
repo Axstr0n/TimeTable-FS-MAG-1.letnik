@@ -213,7 +213,7 @@ body{
 .entry{
     padding: 4px;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     /*word-break: break-all;*/
     display: flex;
     flex-direction: column;
@@ -227,8 +227,9 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.subject-title{
+.subject-title-type-group .subject-title{
     margin-right: 2px;
+    font-weight: bold;
 }
 .subject-type{
     margin-right: 2px;
@@ -237,10 +238,10 @@ body{
 
 }
 .subject-time{
-
+    margin-bottom: -2px;
 }
 .subject-classroom{
-
+    
 }
 .author-mark{
     position: absolute;
@@ -295,5 +296,8 @@ body{
     .subject-title-toggle .subject-title{
         font-size: 12px;
         font-weight: bold;
+    }
+    .entry{
+        font-size: 9px;
     }
 }
