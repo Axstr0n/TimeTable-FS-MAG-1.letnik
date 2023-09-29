@@ -274,8 +274,8 @@ const TP = {
     exercises: {
         VPS1: {
             canShow: true,
-            type: 'VPS1',
-            group: 'VPS1',
+            type: 'VP',
+            group: 'S1',
             day: 'friday',
             timeStart: '8:00',
             timeEnd: '10:00',
@@ -283,8 +283,8 @@ const TP = {
         },
         VPS2: {
             canShow: true,
-            type: 'VPS2',
-            group: 'VPS2',
+            type: 'VP',
+            group: 'S2',
             day: 'wednesday',
             timeStart: '12:00',
             timeEnd: '14:00',
@@ -414,8 +414,8 @@ const ST = {
     exercises: {
         VPS1: {
             canShow: true,
-            type: 'VPS1',
-            group: 'VPS1',
+            type: 'VP',
+            group: 'S1',
             day: 'wednesday',
             timeStart: '18:00',
             timeEnd: '20:00',
@@ -423,8 +423,8 @@ const ST = {
         },
         VPS2: {
             canShow: true,
-            type: 'VPS2',
-            group: 'VPS2',
+            type: 'VP',
+            group: 'S2',
             day: 'thursday',
             timeStart: '12:00',
             timeEnd: '14:00',
@@ -723,8 +723,8 @@ const VT = {
     exercises: {
         VPS1: {
             canShow: true,
-            type: 'VPS1',
-            group: 'VPS1',
+            type: 'VP',
+            group: 'S1',
             day: 'wednesday',
             timeStart: '12:00',
             timeEnd: '14:00',
@@ -732,8 +732,8 @@ const VT = {
         },
         VPS2: {
             canShow: true,
-            type: 'VPS"',
-            group: 'VPS2',
+            type: 'VP',
+            group: 'S2',
             day: 'friday',
             timeStart: '14:00',
             timeEnd: '16:00',
@@ -802,8 +802,8 @@ const VD = {
     exercises: {
         VPS1: {
             canShow: true,
-            type: 'VPS1',
-            group: 'VPS1',
+            type: 'VP',
+            group: 'S1',
             day: 'thursday',
             timeStart: '16:00',
             timeEnd: '18:00',
@@ -811,8 +811,8 @@ const VD = {
         },
         VPS2: {
             canShow: true,
-            type: 'VPS2',
-            group: 'VPS2',
+            type: 'VP',
+            group: 'S2',
             day: 'friday',
             timeStart: '8:00',
             timeEnd: '10:00',
@@ -1490,8 +1490,8 @@ function CreateSubjectSelect(subject){
             let exerciseButton = document.createElement('button');
             exerciseButton.classList.add('subject-group-toggle-button');
             exerciseButton.setAttribute('id', `${subject.abbreviation}-${exercise.group}-button`);
-            if(exercise.group === ''){
-                exerciseButton.innerHTML = exercise.type;
+            if(exercise.type === 'VP'){
+                exerciseButton.innerHTML = `${exercise.type}${exercise.group}`;
             }
             else{
                 exerciseButton.innerHTML = exercise.group;
