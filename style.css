@@ -60,7 +60,7 @@ body{
     display: flex;
     padding-bottom: 10px;
     overflow-x:scroll;
-    min-height: 100px;
+    min-height: 120px;
     padding-top: 10px;
 }
 .subject-select{
