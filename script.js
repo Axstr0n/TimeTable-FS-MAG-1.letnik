@@ -1807,12 +1807,9 @@ function AddLessonToTimetable(lesson, offsetXMultiplier, numberOfColumns){
     subject_type.classList.add('subject-type');
     subject_type.innerHTML = type;
 
-    let subject_group = null;
-    if(group != null){
-        subject_group = document.createElement('div');
-        subject_group.classList.add('subject-group');
-        subject_group.innerHTML = group;
-    }
+    let subject_group = document.createElement('div');
+    subject_group.classList.add('subject-group');
+    subject_group.innerHTML = group;
         
     let subject_time = document.createElement('div');
     subject_time.classList.add('subject-time');
@@ -1826,9 +1823,8 @@ function AddLessonToTimetable(lesson, offsetXMultiplier, numberOfColumns){
     //#region APPEND CHILDREN
     subject_title_type_group.appendChild(subject_title);
     subject_title_type_group.appendChild(subject_type);
-    if(subject_group != null){
-        subject_title_type_group.appendChild(subject_group);
-    }
+    subject_title_type_group.appendChild(subject_group);
+
     entry.appendChild(subject_title_type_group);
     entry.appendChild(subject_time);
     entry.appendChild(subject_classroom);
