@@ -1233,6 +1233,15 @@ const MK = {
         classroom: 'III/4'
     },
     exercises: {
+        VP: {
+            canShow: true,
+            type: 'VP',
+            group: '',
+            day: 'friday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'III/2'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -1285,6 +1294,15 @@ const RS = {
         classroom: 'III/4'
     },
     exercises: {
+        VP: {
+            canShow: true,
+            type: 'VP',
+            group: '',
+            day: 'friday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'III/2'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -1337,6 +1355,15 @@ const PAP = {
         classroom: 'III/4'
     },
     exercises: {
+        VP: {
+            canShow: true,
+            type: 'VP',
+            group: '',
+            day: 'thursday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'III/2'
+        },
         S1: {
             canShow: true,
             type: 'VL',
