@@ -16,6 +16,15 @@ const EMEPS = {
         classroom: 'III/2'
     },
     exercises: {
+        VP: {
+            canShow: true,
+            type: 'VP',
+            group: '',
+            day: 'friday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'III/4'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -94,6 +103,60 @@ const NPZ = {
             timeStart: '10:00',
             timeEnd: '12:00',
             classroom: 'DS-P1'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'thursday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'SK-15'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'thursday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'SK-15'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'thursday',
+            timeStart: '18:00',
+            timeEnd: '20:00',
+            classroom: 'SK-15'
+        },
+        S4: {
+            canShow: true,
+            type: 'VL',
+            group: 'S4',
+            day: 'friday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'SK-15'
+        },
+        S5: {
+            canShow: true,
+            type: 'VL',
+            group: 'S5',
+            day: 'friday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'SK-15'
+        },
+        S6: {
+            canShow: true,
+            type: 'VL',
+            group: 'S6',
+            day: 'friday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'SK-15'
         }
     },
     bgColor: '#00ffd0'
@@ -119,6 +182,78 @@ const ES = {
             timeStart: '10:00',
             timeEnd: '12:00',
             classroom: 'IV/3B'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'thursday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'SI-60A'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'monday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'SI-60A'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'monday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'SI-60A'
+        },
+        S4: {
+            canShow: true,
+            type: 'VL',
+            group: 'S4',
+            day: 'tuesday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'SI-60A'
+        },
+        S5: {
+            canShow: true,
+            type: 'VL',
+            group: 'S5',
+            day: 'tuesday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'SI-60A'
+        },
+        S6: {
+            canShow: true,
+            type: 'VL',
+            group: 'S6',
+            day: 'wednesday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'SI-60A'
+        },
+        S7: {
+            canShow: true,
+            type: 'VL',
+            group: 'S7',
+            day: 'wednesday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'SI-60A'
+        },
+        S8: {
+            canShow: true,
+            type: 'VL',
+            group: 'S8',
+            day: 'thursday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'SI-60A'
         }
     },
     bgColor: '#00ffd0'
@@ -137,6 +272,24 @@ const TP = {
         classroom: 'III/4'
     },
     exercises: {
+        VPS1: {
+            canShow: true,
+            type: 'VPS1',
+            group: 'VPS1',
+            day: 'friday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'III/2'
+        },
+        VPS2: {
+            canShow: true,
+            type: 'VPS2',
+            group: 'VPS2',
+            day: 'wednesday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'III/4'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -259,6 +412,24 @@ const ST = {
         classroom: 'III/4'
     },
     exercises: {
+        VPS1: {
+            canShow: true,
+            type: 'VPS1',
+            group: 'VPS1',
+            day: 'wednesday',
+            timeStart: '18:00',
+            timeEnd: '20:00',
+            classroom: 'III/4'
+        },
+        VPS2: {
+            canShow: true,
+            type: 'VPS2',
+            group: 'VPS2',
+            day: 'thursday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'III/2'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -356,6 +527,42 @@ const KT = {
             timeStart: '12:00',
             timeEnd: '14:00',
             classroom: 'III/4'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'friday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'III/6'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'thursday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'III/6'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'thursday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'III/6'
+        },
+        S4: {
+            canShow: true,
+            type: 'VL',
+            group: 'S4',
+            day: 'friday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'III/6'
         }
     },
     bgColor: '#00ffd0'
@@ -381,6 +588,60 @@ const IPK = {
             timeStart: '8:00',
             timeEnd: '10:00',
             classroom: 'III/4'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'thursday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'TiNT 1'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'tuesday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'TiNT 1'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'tuesday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'TiNT 1'
+        },
+        S4: {
+            canShow: true,
+            type: 'VL',
+            group: 'S4',
+            day: 'wednesday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'TiNT 1'
+        },
+        S5: {
+            canShow: true,
+            type: 'VL',
+            group: 'S5',
+            day: 'wednesday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'TiNT 1'
+        },
+        S6: {
+            canShow: true,
+            type: 'VL',
+            group: 'S6',
+            day: 'wednesday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'TiNT 1'
         }
     },
     bgColor: '#00ffd0'
@@ -398,6 +659,15 @@ const KNS = {
         classroom: 'II/5'
     },
     exercises: {
+        VP: {
+            canShow: true,
+            type: 'VP',
+            group: '',
+            day: 'wednesday',
+            timeStart: '18:00',
+            timeEnd: '20:00',
+            classroom: 'II/2'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -451,6 +721,24 @@ const VT = {
         classroom: 'II/5'
     },
     exercises: {
+        VPS1: {
+            canShow: true,
+            type: 'VPS1',
+            group: 'VPS1',
+            day: 'wednesday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'III/2'
+        },
+        VPS2: {
+            canShow: true,
+            type: 'VPS"',
+            group: 'VPS2',
+            day: 'friday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'III/4'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -512,23 +800,104 @@ const VD = {
         classroom: 'III/4'
     },
     exercises: {
-        S1: {
+        VPS1: {
             canShow: true,
-            type: 'VP',
-            group: 'S1',
+            type: 'VPS1',
+            group: 'VPS1',
             day: 'thursday',
             timeStart: '16:00',
             timeEnd: '18:00',
-            classroom: 'III/4'
+            classroom: 'IV/3A'
         },
-        S2: {
+        VPS2: {
             canShow: true,
-            type: 'VP',
-            group: 'S2',
+            type: 'VPS2',
+            group: 'VPS2',
             day: 'friday',
             timeStart: '8:00',
             timeEnd: '10:00',
             classroom: 'III/4'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'thursday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'P-17C'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'friday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'P-17C'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'monday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'P-17C'
+        },
+        S4: {
+            canShow: true,
+            type: 'VL',
+            group: 'S4',
+            day: 'monday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'P-17C'
+        },
+        S5: {
+            canShow: true,
+            type: 'VL',
+            group: 'S5',
+            day: 'monday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'P-17C'
+        },
+        S6: {
+            canShow: true,
+            type: 'VL',
+            group: 'S6',
+            day: 'wednesday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'P-17C'
+        },
+        S7: {
+            canShow: true,
+            type: 'VL',
+            group: 'S7',
+            day: 'wednesday',
+            timeStart: '18:00',
+            timeEnd: '20:00',
+            classroom: 'P-17C'
+        },
+        S8: {
+            canShow: true,
+            type: 'VL',
+            group: 'S8',
+            day: 'friday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'P-17C'
+        },
+        S9: {
+            canShow: true,
+            type: 'VL',
+            group: 'S9',
+            day: 'friday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'P-17C'
         }
     },
     bgColor: '#00ffd0'
@@ -554,6 +923,33 @@ const MKE = {
             timeStart: '10:00',
             timeEnd: '12:00',
             classroom: 'III/2'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'thursday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'I/4'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'tuesday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'I/4'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'tuesday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'I/4'
         }
     },
     bgColor: '#00ffd0'
@@ -572,6 +968,15 @@ const MT = {
         classroom: 'III/2'
     },
     exercises: {
+        VP: {
+            canShow: true,
+            type: 'VP',
+            group: '',
+            day: 'thursday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'III/3A'
+        },
         S1: {
             canShow: true,
             type: 'VL',
@@ -594,7 +999,7 @@ const MT = {
             canShow: true,
             type: 'VL',
             group: 'S3',
-            day: 'thursday',
+            day: 'monday',
             timeStart: '14:00',
             timeEnd: '16:00',
             classroom: 'SP-39'
@@ -659,6 +1064,60 @@ const NOP = {
             timeStart: '10:00',
             timeEnd: '12:00',
             classroom: 'III/4'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'friday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'SP-DL-1'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'tuesday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'SP-DL-1'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'friday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'SP-DL-1'
+        },
+        S4: {
+            canShow: true,
+            type: 'VL',
+            group: 'S4',
+            day: 'monday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'SP-DL-1'
+        },
+        S5: {
+            canShow: true,
+            type: 'VL',
+            group: 'S5',
+            day: 'monday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'SP-DL-1'
+        },
+        S6: {
+            canShow: true,
+            type: 'VL',
+            group: 'S6',
+            day: 'friday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'SP-DL-1'
         }
     },
     bgColor: '#00ffd0'
@@ -684,6 +1143,78 @@ const TO = {
             timeStart: '16:00',
             timeEnd: '18:00',
             classroom: 'III/4'
+        },
+        S1: {
+            canShow: true,
+            type: 'VL',
+            group: 'S1',
+            day: 'thursday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'SII-88'
+        },
+        S2: {
+            canShow: true,
+            type: 'VL',
+            group: 'S2',
+            day: 'wednesday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'SII-88'
+        },
+        S3: {
+            canShow: true,
+            type: 'VL',
+            group: 'S3',
+            day: 'thursday',
+            timeStart: '8:00',
+            timeEnd: '10:00',
+            classroom: 'SII-88'
+        },
+        S4: {
+            canShow: true,
+            type: 'VL',
+            group: 'S4',
+            day: 'thursday',
+            timeStart: '10:00',
+            timeEnd: '12:00',
+            classroom: 'SII-88'
+        },
+        S5: {
+            canShow: true,
+            type: 'VL',
+            group: 'S5',
+            day: 'wednesday',
+            timeStart: '12:00',
+            timeEnd: '14:00',
+            classroom: 'SII-88'
+        },
+        S6: {
+            canShow: true,
+            type: 'VL',
+            group: 'S6',
+            day: 'wednesday',
+            timeStart: '14:00',
+            timeEnd: '16:00',
+            classroom: 'SII-88'
+        },
+        S7: {
+            canShow: true,
+            type: 'VL',
+            group: 'S7',
+            day: 'wednesday',
+            timeStart: '16:00',
+            timeEnd: '18:00',
+            classroom: 'SII-88'
+        },
+        S8: {
+            canShow: true,
+            type: 'VL',
+            group: 'S8',
+            day: 'wednesday',
+            timeStart: '18:00',
+            timeEnd: '20:00',
+            classroom: 'SII-88'
         }
     },
     bgColor: '#00ffd0'
@@ -1183,7 +1714,9 @@ function ControlOverlapping(lessons){
     let col4 = []
     let col5 = []
     let col6 = []
-    let columns = [col1, col2, col3, col4, col5, col6]
+    let col7 = []
+    let col8 = []
+    let columns = [col1, col2, col3, col4, col5, col6, col7, col8]
     lessons.forEach(lesson => {
         let lessonStart = ConvertTime(lesson[4])
         let lessonEnd = ConvertTime(lesson[5])
