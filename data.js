@@ -2,7 +2,7 @@
 //----- SUBJECTS -----//
 
 //#region SEMESTER 1
-
+/*
 // Energetsko strojništvo
 const EMEPS = {
     name: 'Eksperimentalno modeliranje v EPS',
@@ -1395,7 +1395,7 @@ const PAP = {
     },
     bgColor: '#6aff00'
 };
-
+*/
 //#endregion
 
 //#region SEMESTER 2
